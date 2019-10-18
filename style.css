@@ -1,0 +1,62 @@
+body {
+  background-color: #CDE8F5;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  max-width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: black;
+  font-family: Helvetica, regular;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+p {
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.header-image {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.project-image {
+  float: left;
+  max-width: 400px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.outstanding {
+  font-size: 100%;
+  font-style: regular;
+  color: #15497C;
+  font-family: Helvetica, regular;
+}
+
+.project {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .project-image {
+    float: none;
+  }
+}
